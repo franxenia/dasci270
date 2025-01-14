@@ -1,0 +1,1 @@
+trn_pred = clf.predict(X_trn)

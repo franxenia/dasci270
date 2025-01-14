@@ -1,0 +1,9 @@
+df['Acidity'] = df['Acidity'].astype('float')
+df['Quality'] = df['Quality'].astype('int')
+df['Size sq'] = df['Size'] ** 2
+df['Weight sq'] = df['Weight'] ** 2
+df['Sweetness sq'] = df['Sweetness'] ** 2
+df['Crunchiness sq'] = df['Crunchiness'] ** 2
+df['Juiciness sq'] = df['Juiciness'] ** 2
+df['Ripeness sq'] = df['Ripeness'] ** 2
+df['Acidity sq'] = df['Acidity'] ** 2
