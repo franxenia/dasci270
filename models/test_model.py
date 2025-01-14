@@ -1,1 +1,0 @@
-clf.fit(X_tst, y_tst)
